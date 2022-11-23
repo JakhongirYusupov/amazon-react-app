@@ -1,0 +1,42 @@
+.productImage__wrapper>div {
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.productImage__wrapper>div>img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.main__image {
+  position: relative;
+  cursor: none;
+  background-color: red;
+  width: 400px;
+  height: 400px;
+  background-color: blue;
+  overflow: hidden;
+}
+
+.main__image>img {
+  width: 100%;
+  height: 100%;
+}
+
+.tracker {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  pointer-events: none;
+  background-color: rgba(30, 143, 255, 0.394);
+}
+
+.preview {
+  width: 400px;
+  height: 400px;
+  background-color: red;
+}

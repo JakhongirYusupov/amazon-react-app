@@ -1,0 +1,92 @@
+[
+  {
+    "title" : "Get fit at home",
+    "image" : "https://images-na.ssl-images-amazon.com/images/G/01/events/GFAH/GWDesktop_SingleImageCard_fitathome_1x._SY304_CB434924743_.jpg",
+    "linkLabel" : "Explore now",
+    "linkURL" : "/explorenow"
+  },
+  {
+    "title" : "Health & Personal Care",
+    "image" : "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2022/February/DashboardCards/GW_CONS_AUS_HPC_HPCEssentials_CatCard_Desktop1x._SY304_CB627424361_.jpg",
+    "linkLabel" : "Shop now",
+    "linkURL" : "/shopnow"
+  },
+  {
+    "title" : "Get fit at home",
+    "image" : "https://images-na.ssl-images-amazon.com/images/G/01/events/GFAH/GWDesktop_SingleImageCard_fitathome_1x._SY304_CB434924743_.jpg",
+    "linkLabel" : "Explore now",
+    "linkURL" : "/explorenow"
+  },
+  {
+    "title" : "Health & Personal Care",
+    "image" : "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2022/February/DashboardCards/GW_CONS_AUS_HPC_HPCEssentials_CatCard_Desktop1x._SY304_CB627424361_.jpg",
+    "linkLabel" : "Shop now",
+    "linkURL" : "/shopnow"
+  },
+  {
+    "title" : "Shop by Category",
+    "image" : [
+      {
+        "imageURL" : "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2019/February/Dashboard/computer120x._SY85_CB468850970_.jpg",
+        "subtitle" : "Computer & Acccessories",
+        "imageRedirect" : "/computer"
+      },
+      {
+        "imageURL" : "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2019/August/DashboardCard/PS4_120X._SY85_CB438749318_.jpg",
+        "subtitle" : "Gaming",
+        "imageRedirect" : "/gaming"
+      },
+      {
+        "imageURL" : "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2019/February/Dashboard/Baby120X._SY85_CB468850882_.jpg",
+        "subtitle" : "Baby",
+        "imageRedirect" : "/baby"
+      },
+      {
+        "imageURL" : "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2019/February/Dashboard/Toys120X._SY85_CB468851693_.jpg",
+        "subtitle" : "Toys",
+        "imageRedirect" : "/toys"
+      }
+    ],
+    "linkLabel" : "See more",
+    "linkURL" : "/shopnow"
+  },
+  {
+    "title" : "Shop by Category",
+    "image" : [
+      {
+        "imageURL" : "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2019/February/Dashboard/computer120x._SY85_CB468850970_.jpg",
+        "subtitle" : "Computer & Acccessories",
+        "imageRedirect" : "/computer"
+      },
+      {
+        "imageURL" : "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2019/August/DashboardCard/PS4_120X._SY85_CB438749318_.jpg",
+        "subtitle" : "Gaming",
+        "imageRedirect" : "/gaming"
+      },
+      {
+        "imageURL" : "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2019/February/Dashboard/Baby120X._SY85_CB468850882_.jpg",
+        "subtitle" : "Baby",
+        "imageRedirect" : "/baby"
+      },
+      {
+        "imageURL" : "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2019/February/Dashboard/Toys120X._SY85_CB468851693_.jpg",
+        "subtitle" : "Toys",
+        "imageRedirect" : "/toys"
+      }
+    ],
+    "linkLabel" : "See more",
+    "linkURL" : "/shopnow"
+  },
+  {
+    "title" : "Health & Personal Care",
+    "image" : "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2022/February/DashboardCards/GW_CONS_AUS_HPC_HPCEssentials_CatCard_Desktop1x._SY304_CB627424361_.jpg",
+    "linkLabel" : "Shop now",
+    "linkURL" : "/shopnow"
+  },
+  {
+    "title" : "Health & Personal Care",
+    "image" : "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2022/February/DashboardCards/GW_CONS_AUS_HPC_HPCEssentials_CatCard_Desktop1x._SY304_CB627424361_.jpg",
+    "linkLabel" : "Shop now",
+    "linkURL" : "/login"
+  }
+]

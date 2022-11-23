@@ -1,0 +1,13 @@
+.main {
+  max-width: 1440px;
+  padding: 0 20px;
+  margin: -230px auto 0 auto;
+  z-index: 2;
+  position: relative;
+}
+
+.mainProducts {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
+}

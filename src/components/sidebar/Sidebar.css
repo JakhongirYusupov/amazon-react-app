@@ -1,0 +1,154 @@
+.sidebar {
+  width: 365px;
+  height: 100vh;
+  background-color: var(--primary-light-color);
+  position: fixed;
+  top: 0;
+  left: -100%;
+  z-index: 10;
+  transition: 0.3s;
+}
+
+.sidebaractive {
+  left: 0;
+  transition: 0.3s;
+}
+
+.sidebarSignIn {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  background-color: var(--primary-footer-light-color) !important;
+}
+
+.sidebarSignIn>p {
+  padding-top: 3px;
+  font-size: 19px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.sidebarXbutton {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 10px;
+  right: -40px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.sidebarSignIn-icon {
+  width: 27px;
+  height: 25px;
+  color: #fff;
+  margin: 0 10px 0 36px;
+}
+
+.sidebarNavWrapper {
+  overflow: hidden;
+  height: 100%;
+}
+
+
+.sidebarNav {
+  width: 747px;
+  height: 100%;
+  transition: 0.5s;
+  display: flex;
+  overflow-y: hidden;
+}
+
+.sidebarleft {
+  transition: 0.5s;
+  transform: translateX(-365px);
+}
+
+.sidebarNav>div {
+  width: 365px;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.sidebarNavTitle {
+  padding: 13px 0 5px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #111;
+}
+
+.sidebarNav-link-wrapper {
+  height: auto;
+  width: 365px;
+  padding: 6px 0px 6px 36px;
+  /* transition: height 1s; */
+  border-top: 1px solid #d5dbdb;
+}
+
+.sidebarNav-link-wrapper>div,
+.sidebarNav-link-wrapper-box>div {
+  padding: 13px 0;
+}
+
+.sidebarNav-link-wrapper-box {
+  border-top: 1px solid #d5dbdb;
+}
+
+.sidebarNav-link-box {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.sidebarNav-link-box>a {
+  font-size: 14px;
+  color: #111;
+}
+
+.sidebarNav-link-arrow-icon {
+  width: 18px;
+  height: 22px;
+  margin: 0px 40px 0px auto;
+  color: rgba(17, 17, 17, 0.699);
+}
+
+.miniSideBar-title {
+  display: flex;
+  align-items: center;
+  color: #111;
+  cursor: pointer;
+  border-bottom: 1px solid #d5dbdb;
+}
+
+.miniSideBar-title>p {
+  padding-left: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #111;
+}
+
+.miniSideBar-title-arrow-icon {
+  width: 22px;
+  height: 22px;
+}
+
+.sidebar-see-all {
+  padding: 0 0 13px !important;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.sidebar-see-all-wrapper {
+  height: 0;
+  padding: 7px 0 !important;
+  border: none;
+  overflow: hidden;
+  /* transition: height 1s; */
+}
+
+.sidebar-see-all-arrow-icon {
+  margin-left: 10px;
+  color: #111;
+}

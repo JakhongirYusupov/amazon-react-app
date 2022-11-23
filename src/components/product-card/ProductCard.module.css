@@ -1,0 +1,31 @@
+.product-card {
+  height: 385px;
+  background-color: var(--primary-light-color);
+  padding: 20px 1rem;
+}
+
+.productCardImage {
+  width: 300px;
+  margin: 1rem 0;
+}
+
+.productCardLink {
+  text-decoration: none;
+  color: #1fa1a1;
+}
+
+.productCardGrid {
+  height: 250px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 5px;
+  margin: 1rem 0;
+}
+
+.productCardGridItem {
+  display: grid;
+  place-items: center;
+  text-decoration: none;
+  color: var(--primary-dark-color);
+}

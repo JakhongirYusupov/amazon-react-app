@@ -1,0 +1,693 @@
+[
+    {
+        "title": "Digital Content & Devices",
+        "categories": [
+            {
+                "categoryTitle": "Amazon Music",
+                "categories": [
+                    {
+                        "title": "Stream Music",
+                        "categories": [
+                            {
+                                "title": "Amazon Music Unlimited",
+                                "link": "https://www.google.com"
+                            },
+                            {
+                                "title": "Free Streaming Music",
+                                "link": "/"
+                            },
+                            {
+                                "title": "Podcasts",
+                                "link": "/"
+                            },
+                            {
+                                "title": "Play Music",
+                                "link": "/"
+                            },
+                            {
+                                "title": "Open Web Player",
+                                "link": "/"
+                            },
+                            {
+                                "title": "Download the app",
+                                "link": "/"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "categoryTitle": "Kindle E-readers & Books",
+                "categories": [
+                    {
+                        "title": "Kindle E-readers",
+                        "categories": [
+                            {
+                                "title": "All-new Kindle Kids",
+                                "link": "/"
+                            },
+                            {
+                                "title": "All-new Kindle",
+                                "link": "/"
+                            },
+                            {
+                                "title": "Kindle Paperwhite",
+                                "link": "/"
+                            },
+                            {
+                                "title": "Kindle Oasis",
+                                "link": "/"
+                            },
+                            {
+                                "title": "Introducing Kindle Scribe",
+                                "link": "/"
+                            },
+                            {
+                                "title": "Accessories",
+                                "link": "/"
+                            },
+                            {
+                                "title": "See all Kindle E-Readers",
+                                "link": "/"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Kindle Store",
+                        "categories": [
+                            {
+                                "title": "Kindle Books",
+                                "link": "/"
+                            },
+                            {
+                                "title": "Kindle Unlimited",
+                                "link": "/"
+                            },
+                            {
+                                "title": "Prime Reading",
+                                "link": "/"
+                            },
+                            {
+                                "title": "Kindle Vella",
+                                "link": "/"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Apps & Resources",
+                        "categories": [
+                            {
+                                "title": "Free Kindle Reading Apps",
+                                "link": "/"
+                            },
+                            {
+                                "title": "Kindle Cloud Reader",
+                                "link": "/"
+                            },
+                            {
+                                "title": "Manage Your Content and Devices",
+                                "link": "/"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Shop By Departament",
+        "categories": [
+            {
+                "categoryTitle": "Electronics",
+                "categories": [
+                    {
+                        "title": "Kindle E-readers",
+                        "categories": [
+                            {
+                                "title": "All-new Kindle Kids",
+                                "link": "/"
+                            },
+                            {
+                                "title": "All-new Kindle",
+                                "link": "/"
+                            },
+                            {
+                                "title": "Kindle Paperwhite",
+                                "link": "/"
+                            },
+                            {
+                                "title": "Kindle Oasis",
+                                "link": "/"
+                            },
+                            {
+                                "title": "Introducing Kindle Scribe",
+                                "link": "/"
+                            },
+                            {
+                                "title": "Accessories",
+                                "link": "/"
+                            },
+                            {
+                                "title": "See all Kindle E-Readers",
+                                "link": "/"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Kindle Store",
+                        "categories": [
+                            {
+                                "title": "Kindle Books",
+                                "link": "/"
+                            },
+                            {
+                                "title": "Kindle Unlimited",
+                                "link": "/"
+                            },
+                            {
+                                "title": "Prime Reading",
+                                "link": "/"
+                            },
+                            {
+                                "title": "Kindle Vella",
+                                "link": "/"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Apps & Resources",
+                        "categories": [
+                            {
+                                "title": "Free Kindle Reading Apps",
+                                "link": "/"
+                            },
+                            {
+                                "title": "Kindle Cloud Reader",
+                                "link": "/"
+                            },
+                            {
+                                "title": "Manage Your Content and Devices",
+                                "link": "/"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "categoryTitle": "Electronics",
+                "categories": [
+                    {
+                        "title": "Kindle E-readers",
+                        "categories": [
+                            {
+                                "title": "All-new Kindle Kids",
+                                "link": "/"
+                            },
+                            {
+                                "title": "All-new Kindle",
+                                "link": "/"
+                            },
+                            {
+                                "title": "Kindle Paperwhite",
+                                "link": "/"
+                            },
+                            {
+                                "title": "Kindle Oasis",
+                                "link": "/"
+                            },
+                            {
+                                "title": "Introducing Kindle Scribe",
+                                "link": "/"
+                            },
+                            {
+                                "title": "Accessories",
+                                "link": "/"
+                            },
+                            {
+                                "title": "See all Kindle E-Readers",
+                                "link": "/"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Kindle Store",
+                        "categories": [
+                            {
+                                "title": "Kindle Books",
+                                "link": "/"
+                            },
+                            {
+                                "title": "Kindle Unlimited",
+                                "link": "/"
+                            },
+                            {
+                                "title": "Prime Reading",
+                                "link": "/"
+                            },
+                            {
+                                "title": "Kindle Vella",
+                                "link": "/"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Apps & Resources",
+                        "categories": [
+                            {
+                                "title": "Free Kindle Reading Apps",
+                                "link": "/"
+                            },
+                            {
+                                "title": "Kindle Cloud Reader",
+                                "link": "/"
+                            },
+                            {
+                                "title": "Manage Your Content and Devices",
+                                "link": "/"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "categoryTitle": "Electronics",
+                "categories": [
+                    {
+                        "title": "Kindle E-readers",
+                        "categories": [
+                            {
+                                "title": "All-new Kindle Kids",
+                                "link": "/"
+                            },
+                            {
+                                "title": "All-new Kindle",
+                                "link": "/"
+                            },
+                            {
+                                "title": "Kindle Paperwhite",
+                                "link": "/"
+                            },
+                            {
+                                "title": "Kindle Oasis",
+                                "link": "/"
+                            },
+                            {
+                                "title": "Introducing Kindle Scribe",
+                                "link": "/"
+                            },
+                            {
+                                "title": "Accessories",
+                                "link": "/"
+                            },
+                            {
+                                "title": "See all Kindle E-Readers",
+                                "link": "/"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Kindle Store",
+                        "categories": [
+                            {
+                                "title": "Kindle Books",
+                                "link": "/"
+                            },
+                            {
+                                "title": "Kindle Unlimited",
+                                "link": "/"
+                            },
+                            {
+                                "title": "Prime Reading",
+                                "link": "/"
+                            },
+                            {
+                                "title": "Kindle Vella",
+                                "link": "/"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Apps & Resources",
+                        "categories": [
+                            {
+                                "title": "Free Kindle Reading Apps",
+                                "link": "/"
+                            },
+                            {
+                                "title": "Kindle Cloud Reader",
+                                "link": "/"
+                            },
+                            {
+                                "title": "Manage Your Content and Devices",
+                                "link": "/"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "categoryTitle": "Electronics",
+                "categories": [
+                    {
+                        "title": "Kindle E-readers",
+                        "categories": [
+                            {
+                                "title": "All-new Kindle Kids",
+                                "link": "/"
+                            },
+                            {
+                                "title": "All-new Kindle",
+                                "link": "/"
+                            },
+                            {
+                                "title": "Kindle Paperwhite",
+                                "link": "/"
+                            },
+                            {
+                                "title": "Kindle Oasis",
+                                "link": "/"
+                            },
+                            {
+                                "title": "Introducing Kindle Scribe",
+                                "link": "/"
+                            },
+                            {
+                                "title": "Accessories",
+                                "link": "/"
+                            },
+                            {
+                                "title": "See all Kindle E-Readers",
+                                "link": "/"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Kindle Store",
+                        "categories": [
+                            {
+                                "title": "Kindle Books",
+                                "link": "/"
+                            },
+                            {
+                                "title": "Kindle Unlimited",
+                                "link": "/"
+                            },
+                            {
+                                "title": "Prime Reading",
+                                "link": "/"
+                            },
+                            {
+                                "title": "Kindle Vella",
+                                "link": "/"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Apps & Resources",
+                        "categories": [
+                            {
+                                "title": "Free Kindle Reading Apps",
+                                "link": "/"
+                            },
+                            {
+                                "title": "Kindle Cloud Reader",
+                                "link": "/"
+                            },
+                            {
+                                "title": "Manage Your Content and Devices",
+                                "link": "/"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "categoryTitle": "Automotive",
+                "categories": [
+                    {
+                        "title": "Automotive products",
+                        "categories": [
+                            {
+                                "title": "All-new Kindle Kids",
+                                "link": "/"
+                            },
+                            {
+                                "title": "All-new Kindle",
+                                "link": "/"
+                            },
+                            {
+                                "title": "Kindle Paperwhite",
+                                "link": "/"
+                            },
+                            {
+                                "title": "Kindle Oasis",
+                                "link": "/"
+                            },
+                            {
+                                "title": "Introducing Kindle Scribe",
+                                "link": "/"
+                            },
+                            {
+                                "title": "Accessories",
+                                "link": "/"
+                            },
+                            {
+                                "title": "See all Kindle E-Readers",
+                                "link": "/"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Kindle Store",
+                        "categories": [
+                            {
+                                "title": "Kindle Books",
+                                "link": "/"
+                            },
+                            {
+                                "title": "Kindle Unlimited",
+                                "link": "/"
+                            },
+                            {
+                                "title": "Prime Reading",
+                                "link": "/"
+                            },
+                            {
+                                "title": "Kindle Vella",
+                                "link": "/"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Apps & Resources",
+                        "categories": [
+                            {
+                                "title": "Free Kindle Reading Apps",
+                                "link": "/"
+                            },
+                            {
+                                "title": "Kindle Cloud Reader",
+                                "link": "/"
+                            },
+                            {
+                                "title": "Manage Your Content and Devices",
+                                "link": "/"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "categoryTitle": "Baby",
+                "categories": [
+                    {
+                        "title": "For Babies",
+                        "categories": [
+                            {
+                                "title": "All-new Kindle Kids",
+                                "link": "/"
+                            },
+                            {
+                                "title": "All-new Kindle",
+                                "link": "/"
+                            },
+                            {
+                                "title": "Kindle Paperwhite",
+                                "link": "/"
+                            },
+                            {
+                                "title": "Kindle Oasis",
+                                "link": "/"
+                            },
+                            {
+                                "title": "Introducing Kindle Scribe",
+                                "link": "/"
+                            },
+                            {
+                                "title": "Accessories",
+                                "link": "/"
+                            },
+                            {
+                                "title": "See all Kindle E-Readers",
+                                "link": "/"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Kindle Store",
+                        "categories": [
+                            {
+                                "title": "Kindle Books",
+                                "link": "/"
+                            },
+                            {
+                                "title": "Kindle Unlimited",
+                                "link": "/"
+                            },
+                            {
+                                "title": "Prime Reading",
+                                "link": "/"
+                            },
+                            {
+                                "title": "Kindle Vella",
+                                "link": "/"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Apps & Resources",
+                        "categories": [
+                            {
+                                "title": "Free Kindle Reading Apps",
+                                "link": "/"
+                            },
+                            {
+                                "title": "Kindle Cloud Reader",
+                                "link": "/"
+                            },
+                            {
+                                "title": "Manage Your Content and Devices",
+                                "link": "/"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Programs & Features",
+        "categories": [
+            {
+                "categoryTitle": "Gift Cards",
+                "categories": [
+                    {
+                        "title": "Kindle E-readers",
+                        "categories": [
+                            {
+                                "title": "All-new Kindle Kids",
+                                "link": "/"
+                            },
+                            {
+                                "title": "All-new Kindle",
+                                "link": "/"
+                            },
+                            {
+                                "title": "Kindle Paperwhite",
+                                "link": "/"
+                            },
+                            {
+                                "title": "Kindle Oasis",
+                                "link": "/"
+                            },
+                            {
+                                "title": "Introducing Kindle Scribe",
+                                "link": "/"
+                            },
+                            {
+                                "title": "Accessories",
+                                "link": "/"
+                            },
+                            {
+                                "title": "See all Kindle E-Readers",
+                                "link": "/"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Kindle Store",
+                        "categories": [
+                            {
+                                "title": "Kindle Books",
+                                "link": "/"
+                            },
+                            {
+                                "title": "Kindle Unlimited",
+                                "link": "/"
+                            },
+                            {
+                                "title": "Prime Reading",
+                                "link": "/"
+                            },
+                            {
+                                "title": "Kindle Vella",
+                                "link": "/"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Apps & Resources",
+                        "categories": [
+                            {
+                                "title": "Free Kindle Reading Apps",
+                                "link": "/"
+                            },
+                            {
+                                "title": "Kindle Cloud Reader",
+                                "link": "/"
+                            },
+                            {
+                                "title": "Manage Your Content and Devices",
+                                "link": "/"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "categoryTitle": "International Shopping",
+                "categories": [
+                    {
+                        "title": "Stream Music",
+                        "categories": [
+                            {
+                                "title": "Amazon Music Unlimited",
+                                "link": "https://www.google.com"
+                            },
+                            {
+                                "title": "Free Streaming Music",
+                                "link": "/"
+                            },
+                            {
+                                "title": "Podcasts",
+                                "link": "/"
+                            },
+                            {
+                                "title": "Play Music",
+                                "link": "/"
+                            },
+                            {
+                                "title": "Open Web Player",
+                                "link": "/"
+                            },
+                            {
+                                "title": "Download the app",
+                                "link": "/"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

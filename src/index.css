@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  scroll-behavior: smooth;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+:root {
+  --primary-dark-color: #141921;
+  --primary-light-color: #ffffff;
+  --primary-orange-color: #FEBD69;
+  --primary-border-radius: 4px;
+  --primary-footer-light-color: #232F3E;
+}
+
+body {
+  background-color: #EAEDED;
+}
