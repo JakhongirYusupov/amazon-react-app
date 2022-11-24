@@ -16,6 +16,13 @@ const Main = () => {
         }
       </div>
       <Maincorusel />
+      <div className={c.mainProducts}>
+        {
+          collectionData.map(collectionItem =>
+            <ProductCard key={uuidv4()} linkLabel={collectionItem.linkLabel} linkURL={collectionItem.linkURL} image={collectionItem.image} title={collectionItem.title} />
+          )
+        }
+      </div>
     </div>
   )
 }

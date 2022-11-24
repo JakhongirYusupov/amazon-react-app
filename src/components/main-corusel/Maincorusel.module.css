@@ -1,0 +1,80 @@
+.mainCoruselWrapper {
+  max-width: 1440px;
+  height: 276px;
+  margin: 20px auto;
+  padding: 10px 20px;
+  position: relative;
+  background-color: var(--primary-light-color);
+}
+
+.mainCoruselTitleBox {
+  padding-top: 10px;
+}
+
+.mainCoruselTitleBox>h1 {
+  font-size: 21px;
+}
+
+.main-corusel-images-wrapper {
+  width: auto !important;
+  display: flex;
+  gap: 10px;
+
+}
+
+.main-corusel-image-box>img {
+  object-fit: contain;
+  z-index: 1;
+}
+
+.main-corusel {
+  scroll-behavior: smooth;
+  overflow: hidden;
+}
+
+.scrollButton {
+  height: 90px;
+  width: 50px;
+  position: absolute;
+  border: none;
+  z-index: 2;
+  background-color: transparent;
+  transition: 0.5s;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.scrollButton:active {
+  border: 5px solid rgb(88, 88, 240);
+}
+
+.scrollButton:hover {
+  background-color: rgba(255, 255, 255, 0.908);
+  transition: 0.5s;
+}
+
+.scrollButton:hover .buttonArrow {
+  color: #818282;
+  transition: 0.5s;
+}
+
+.scrollButton[type='right'] {
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+
+}
+
+.scrollButton[type='left'] {
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+
+}
+
+.buttonArrow {
+  width: 40px;
+  height: 40px;
+  color: transparent;
+  transition: 0.5s;
+}
