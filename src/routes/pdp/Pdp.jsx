@@ -16,9 +16,7 @@ const Pdp = () => {
   useEffect(() => {
     axios.get(`http://localhost:8000/v2/allproducts/${id}`)
       .then(malumot => setSingleProductData(malumot.data))
-  }, [])
-
-  console.log(activeImageIndex);
+  }, [singleProductData])
 
   return (
     <div>
@@ -43,24 +41,23 @@ const Pdp = () => {
                   setIsActiveTracker(true)
                 }} />
                 {isActiveTracker && <div style={{ top: `${mousePositionY - 470}px`, left: `${mousePositionX - 100}px` }} className={c.tracker}></div>}
-
-                <div>
-                  {
-                    singleProductData.ratings % 1 === 0 ?
-                      new Array(singleProductData.ratings).fill("#").map(star =>
-                        <BsStarFill key={uuidv4()} />
-                      )
-                      :
-                      <>
-                        {
-                          new Array(Math.floor(singleProductData.ratings)).fill("#").map(star =>
-                            <BsStarFill key={uuidv4()} />
-                          )
-                        }
-                        <BsStarHalf />
-                      </>
-                  }
-                </div>
+              </div>
+              <div>
+                {
+                  singleProductData.ratings % 1 === 0 ?
+                    new Array(singleProductData.ratings).fill("#").map(star =>
+                      <BsStarFill key={uuidv4()} />
+                    )
+                    :
+                    <>
+                      {
+                        new Array(Math.floor(singleProductData.ratings)).fill("#").map(star =>
+                          <BsStarFill key={uuidv4()} />
+                        )
+                      }
+                      <BsStarHalf />
+                    </>
+                }
               </div>
               {isActiveTracker && <div className={c.preview}></div>}
             </>

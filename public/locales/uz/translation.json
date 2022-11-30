@@ -1,0 +1,23 @@
+{
+  "header": {
+    "delivery__label": "Yetkazish",
+    "country": "O'zbekiston",
+    "sing__in": "Salom, ro'yxatdan o'ting",
+    "account__list": "Hisob va Roʻyxatlar",
+    "returns": "Qaytarish",
+    "orders": "& Buyurtmalarni",
+    "cart": "Hamyon",
+    "select__all": "Hammasi",
+    "select__laptops": "Kompyuterlar",
+    "select__personal": "Shaxsiy Parvarish",
+    "select__toys": "O'yinchoq va Bolalar"
+  },
+  "miniHeader": {
+    "today__deals": "Bugungi takliflar",
+    "custom__service": "Mijozlarga hizmat",
+    "registry": "Registratsiya",
+    "gift": "Sovg'a kartalari",
+    "sell": "Sotish",
+    "turn__upp": "Quvonchni oshiring, sovg'alarni hozir xarid qiling"
+  }
+}

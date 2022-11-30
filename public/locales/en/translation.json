@@ -1,0 +1,23 @@
+{
+  "header": {
+    "delivery__label": "Delivery to",
+    "country": "Uzbekistan",
+    "sing__in": "Hello, sign in",
+    "account__list": "Account & Lists",
+    "returns": "Returns",
+    "orders": "& Orders",
+    "cart": "Cart",
+    "select__all": "All",
+    "select__laptops": "Laptops",
+    "select__personal": "Personal Care",
+    "select__toys": "Toys and Babies"
+  },
+  "miniHeader": {
+    "today__deals": "Today's Deals",
+    "custom__service": "Customer Service",
+    "registry": "Registry",
+    "gift": "Gift Cards",
+    "sell": "Sell",
+    "turn__upp": "Turn up the cheer, shop gifts now"
+  }
+}

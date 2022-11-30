@@ -6,8 +6,8 @@ import { Link } from 'react-router-dom';
 import { v4 as uuidv4 } from 'uuid';
 import { BsGlobe2 } from 'react-icons/bs';
 import { IoMdArrowDropup, IoMdArrowDropdown } from 'react-icons/io';
-import flag from '../../assets/images/americaFlag.webp';
 import logo from '../../assets/images/logo.png';
+import flags from '../../data/lang-flags.json';
 
 export const Footer = () => {
   return (
@@ -58,7 +58,7 @@ export const Footer = () => {
               </div>
             </Link>
             <Link to='/' className={c.footerCost}>$ USD-U.S. Dollar</Link>
-            <Link to='/' className={c.footerCost}><img src={flag} alt="" />United States</Link>
+            <Link to='/' className={c.footerCost}><img src={flags.en} alt="" />United States</Link>
           </div>
         </div>
       </div>

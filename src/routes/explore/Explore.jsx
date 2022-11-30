@@ -12,18 +12,19 @@ const Explore = () => {
       .then(data => setProductData(data))
   }, [])
 
-  console.log(productData);
 
   return (
     <div>
       {
-        productData.map(({ image, name, _id }) =>
-          <article key={_id}>
-            <h1>{name}</h1>
-            <img src={image[0].url} alt="" />
-            <Link to={`/explorenow/${_id}`}>Learn more</Link>
-          </article>
-        )
+        productData.length ?
+          productData.map(({ image, name, _id }) =>
+            <article key={_id}>
+              <h1>{name}</h1>
+              <img src={image[0].url} alt="" />
+              <Link to={`/explorenow/${_id}`}>Learn more</Link>
+            </article>
+          )
+          : null
       }
     </div>
   )
