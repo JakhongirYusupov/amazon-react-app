@@ -96,6 +96,7 @@
 }
 
 .sidebarNav-link-box {
+  width: 329px;
   display: flex;
   align-items: center;
   cursor: pointer;
@@ -145,7 +146,6 @@
   padding: 7px 0 !important;
   border: none;
   overflow: hidden;
-  /* transition: height 1s; */
 }
 
 .sidebar-see-all-arrow-icon {

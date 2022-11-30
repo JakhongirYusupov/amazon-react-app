@@ -16,7 +16,7 @@ const Pdp = () => {
   useEffect(() => {
     axios.get(`http://localhost:8000/v2/allproducts/${id}`)
       .then(malumot => setSingleProductData(malumot.data))
-  }, [singleProductData])
+  }, [])
 
   return (
     <div>
