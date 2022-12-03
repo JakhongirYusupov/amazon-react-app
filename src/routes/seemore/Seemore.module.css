@@ -1,0 +1,40 @@
+.seeMore {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titleWrapper {
+  padding: 20px 0;
+}
+
+.titleWrapper>h1 {
+  font-size: 28px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.grid {
+  padding: 40px 0;
+  display: grid;
+  grid-template-columns: repeat(4, 284px);
+  gap: 60px;
+}
+
+.gridItem {
+  width: 284px;
+  height: 304px;
+}
+
+.gridItem>img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+}
+
+.gridItem>p {
+  padding: 10px 0;
+  text-align: center;
+  font-size: 16px;
+  color: #000;
+}

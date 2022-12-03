@@ -1,6 +1,19 @@
+.pdp {
+  padding: 40px;
+  padding-left: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pdp__container {
+  display: flex;
+  position: relative;
+}
+
 .productImage__wrapper>div {
-  width: 100px;
-  height: 100px;
+  width: 40px;
+  height: 40px;
   background-color: #fff;
   margin: 10px;
   cursor: pointer;
@@ -36,7 +49,36 @@
 }
 
 .preview {
-  width: 400px;
+  width: 600px;
   height: 400px;
   background-color: red;
+  position: absolute;
+  left: 480px;
+  top: 0;
+}
+
+.pdp__main__wrapper {
+  width: 514px;
+  padding: 0px 20px;
+}
+
+.pdp__main__wrapper>p {
+  font-size: 24px;
+  line-height: 32px;
+  color: #0F1111;
+  margin-bottom: 20px;
+}
+
+.pdp__category {
+  padding: 15px 0;
+}
+
+.pdp__main__stars {
+  margin-bottom: 20px;
+  color: rgb(222, 191, 12);
+}
+
+.pdp__main__cost>p {
+  font-size: 28px;
+  color: #0F1111;
 }

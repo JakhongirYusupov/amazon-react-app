@@ -1,8 +1,10 @@
 import c from './index.module.css';
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 const Backtotop = () => {
+  const { t } = useTranslation();
   const { pathname } = useLocation();
   const scrollToTop = () => {
     window.scrollTo(0, 0);
@@ -14,7 +16,7 @@ const Backtotop = () => {
 
   return (
     <div onClick={scrollToTop} className={c.backtotop}>
-      <p>Back to top</p>
+      <p>{t("back__to__top")}</p>
     </div>
   )
 }

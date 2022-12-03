@@ -15,8 +15,6 @@ const Explore = () => {
       .then(data => setProductData(data))
   }, [])
 
-  console.log(productData);
-
   return (
     <div className={c.Explore}>
       <div className={c.products__wrapper}>

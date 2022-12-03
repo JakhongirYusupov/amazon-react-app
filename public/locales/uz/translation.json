@@ -19,5 +19,20 @@
     "gift": "Sovg'a kartalari",
     "sell": "Sotish",
     "turn__upp": "Quvonchni oshiring, sovg'alarni hozir xarid qiling"
-  }
+  },
+  "signup": {
+    "create__account": "Hisob yaratish",
+    "name": "Ismingiz",
+    "name__input": "Ism va familiya",
+    "email": "Mobil raqam yoki elektron pochta",
+    "password": "Parol",
+    "password__input": "Kamida 6 ta belgi",
+    "password__desc": "Parollar kamida 6 ta belgidan iborat bo'lishi kerak.",
+    "password__enter": "Parolni qayta kiriting",
+    "continue": "Davom eting",
+    "by__create": "Hisob qaydnomasini yaratish orqali siz Amazon-ga rozilik bildirasiz",
+    "sign__in": "Login",
+    "have__account": "Hisobingiz bormi?"
+  },
+  "back__to__top": "Yuqoriga qaytish"
 }
