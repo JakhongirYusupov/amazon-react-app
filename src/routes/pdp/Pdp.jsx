@@ -16,12 +16,12 @@ const Pdp = () => {
   useEffect(() => {
     axios.get(`http://localhost:8000/v2/allproducts/${id}`)
       .then(malumot => setSingleProductData(malumot.data))
-  }, [])
+  }, [id])
 
   return (
     <div>
       <h1>Hello, THIS IS PDP</h1>
-      <div>
+      <div className={c.pdp__container}>
         {
           singleProductData !== null && singleProductData ?
             <>
@@ -29,7 +29,7 @@ const Pdp = () => {
                 {
                   singleProductData.image.map((productImage, index) =>
                     <div key={productImage.id}>
-                      <img style={index === activeImageIndex ? { boxShadow: "0px 0px 5px 2px orange" } : null} onMouseOver={() => { setActiveImageIndex(index) }} src={productImage.url} />
+                      <img style={index === activeImageIndex ? { boxShadow: "0px 0px 5px 2px orange" } : null} onMouseOver={() => { setActiveImageIndex(index) }} src={productImage.url} alt="" />
                     </div>
                   )
                 }
@@ -40,26 +40,26 @@ const Pdp = () => {
                   setMousePositionY(e.clientY)
                   setIsActiveTracker(true)
                 }} />
-                {isActiveTracker && <div style={{ top: `${mousePositionY - 470}px`, left: `${mousePositionX - 100}px` }} className={c.tracker}></div>}
+                {isActiveTracker && <div style={{ top: `${mousePositionY - 200}px`, left: `${mousePositionX - 200}px` }} className={c.tracker}></div>}
+                <div>
+                  {
+                    singleProductData.ratings % 1 === 0 ?
+                      new Array(singleProductData.ratings).fill("#").map(star =>
+                        <BsStarFill key={uuidv4()} />
+                      )
+                      :
+                      <>
+                        {
+                          new Array(Math.floor(singleProductData.ratings)).fill("#").map(star =>
+                            <BsStarFill key={uuidv4()} />
+                          )
+                        }
+                        <BsStarHalf />
+                      </>
+                  }
+                </div>
               </div>
-              <div>
-                {
-                  singleProductData.ratings % 1 === 0 ?
-                    new Array(singleProductData.ratings).fill("#").map(star =>
-                      <BsStarFill key={uuidv4()} />
-                    )
-                    :
-                    <>
-                      {
-                        new Array(Math.floor(singleProductData.ratings)).fill("#").map(star =>
-                          <BsStarFill key={uuidv4()} />
-                        )
-                      }
-                      <BsStarHalf />
-                    </>
-                }
-              </div>
-              {isActiveTracker && <div className={c.preview}></div>}
+              {isActiveTracker && <div style={{ background: `url(${singleProductData.image[activeImageIndex].url})`, backgroundPositionX: `${-mousePositionX - 200}px`, backgroundPositionY: `${-mousePositionY - 200}px`, backgroundRepeat: "no-repeat", backgroundSize: "350%" }} className={c.preview}></div>}
             </>
             :
             <></>

@@ -8,6 +8,7 @@ import { BsCart2 } from "react-icons/bs";
 import { useTranslation } from 'react-i18next';
 import { RiArrowUpSFill } from 'react-icons/ri';
 import flags from '../../data/lang-flags.json';
+import { Link } from 'react-router-dom';
 
 function Header({ setIsNavbarSearchActive }) {
   const [selectedOption, setSelectedOption] = useState("all");
@@ -59,11 +60,13 @@ function Header({ setIsNavbarSearchActive }) {
         </div>
       </div>
       <div className='header__signin-wrapper'>
-        <small className='header__small'>{t("header.sing__in")}</small>
-        <div className="header__signin-accountlist">
-          <b className='header__bold'>{t("header.account__list")}</b>
-          <IoMdArrowDropdown className='header__signin-nawarrrow'></IoMdArrowDropdown>
-        </div>
+        <Link to="/login">
+          <small className='header__small'>{t("header.sing__in")}</small>
+          <div className="header__signin-accountlist">
+            <b className='header__bold'>{t("header.account__list")}</b>
+            <IoMdArrowDropdown className='header__signin-nawarrrow'></IoMdArrowDropdown>
+          </div>
+        </Link>
       </div>
       <div className="header__order-wrapper">
         <small className='header__small'>{t("header.returns")}</small>

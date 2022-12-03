@@ -19,5 +19,19 @@
     "gift": "Gift Cards",
     "sell": "Sell",
     "turn__upp": "Turn up the cheer, shop gifts now"
+  },
+  "signup": {
+    "create__account": "Create account",
+    "name": "Your name",
+    "name__input": "First and last name",
+    "email": "Mobile number or email",
+    "password": "Password",
+    "password__input": "At least 6 characters",
+    "password__desc": "Passwords must be at least 6 characters.",
+    "password__enter": "Re-enter password",
+    "continue": "Continue",
+    "by__create": "By creating an account, you agree to Amazon's",
+    "sign__in": "Sign in",
+    "have__account": "Already have an account?"
   }
 }

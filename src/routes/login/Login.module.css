@@ -1,0 +1,82 @@
+body {
+  background-color: #fff;
+}
+
+.signUp-wrapper {
+  width: 348px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+.signupMain {
+  padding: 14px 18px;
+  border-radius: 5px;
+  border: 1px #ddd solid;
+}
+
+.signupMain>h2 {
+  padding-bottom: 14px;
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.signUp-logo {
+  padding: 14px 0 18px;
+  display: flex;
+  justify-content: center;
+}
+
+.logo__img {
+  width: 100px;
+  height: 30px;
+}
+
+.form {
+  display: grid;
+  gap: 14px;
+}
+
+
+.inputWrapper>label {
+  padding: 0 0 2px 2px;
+  font-style: 13px;
+  font-weight: 700;
+}
+
+.inputWrapper>input {
+  width: 100%;
+  height: 31px;
+  padding: 3px 7px;
+  border: 1px solid #a6a6a6;
+  border-radius: 3px;
+  outline: none;
+}
+
+.inputWrapper>p {
+  margin: 10px 0 0 10px;
+  font-style: 12px;
+  color: #2b2b2b;
+}
+
+.submitBtn {
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  background: linear-gradient(to bottom, #f7dfa5, #f0c14b);
+  border-radius: 2px;
+  border: none;
+  box-shadow: 0 1px 0 rgb(255 255 255 / 40%) inset;
+}
+
+.submitBtnLogin {
+  margin-top: 40px;
+  border: 1px #ddd solid;
+  background: #e7e9ec;
+  border-color: #adb1b8 #a2a6ac #8d9096 !important;
+}
+
+.errorMessage {
+  font-size: 13px;
+  margin-bottom: 10px;
+  color: red;
+}

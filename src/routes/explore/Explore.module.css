@@ -1,6 +1,8 @@
 .Explore {
   display: flex;
   justify-content: center;
+  background-color: #FFFFFF;
+
 }
 
 .products__wrapper {
@@ -9,7 +11,6 @@
   display: grid;
   grid-template-columns: repeat(5, 306px);
   gap: 30px;
-  background-color: #FFFFFF;
 }
 
 

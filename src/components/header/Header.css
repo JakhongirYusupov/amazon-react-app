@@ -112,6 +112,7 @@
 }
 
 .header__small {
+  color: var(--primary-light-color);
   font-size: 12px;
 }
 
@@ -121,6 +122,7 @@
 }
 
 .header__bold {
+  color: var(--primary-light-color);
   font-size: 14px;
 }
 
